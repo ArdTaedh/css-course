@@ -1,0 +1,29 @@
+body {
+  font-family: Arial;
+}
+
+h1 {
+  font-family: sans-serif;
+  color: slategrey;
+}
+
+code {
+  font-family: Monospaced;
+  color: red;
+}
+
+.second-li code {
+  color: green;
+}
+
+ol ~ li {
+  background-color: black;
+  color: white;
+}
+
+ol li {
+  background-color: black;
+  color: white;
+}
+
+/*# sourceMappingURL=index.css.map */
