@@ -1,0 +1,27 @@
+body {
+  background-color: #F8E5EE;
+}
+
+.box1 {
+  background-color: aqua;
+  padding: 1rem;
+  border: 1px #000 solid;
+  height: 300px;
+  width: 40%;
+  display: none;
+}
+
+.box2 {
+  margin-left: 1rem;
+  background-color: hotpink;
+  padding: 1rem;
+  border: 1px #000 solid;
+  display: inline-block;
+  height: 300px;
+  width: 40%;
+}
+.box2:hover {
+  background-color: #fc509e;
+}
+
+/*# sourceMappingURL=index.css.map */
