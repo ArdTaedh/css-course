@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 6fr;
+    grid-template-rows: 1fr 3fr 3fr 1fr;
+    gap: 0.5rem;
+}
+
+.header {
+    background-color: #00ecff;
+    grid-column: 1 / 3;
+}
+
+.sidebar {
+    background-color: #fa0808;
+    grid-row: 2 / 4;
+}
+
+.content {
+    background-color: dodgerblue;
+    grid-row: -4 / -2;
+}
+
+.footer {
+    background-color: palegreen;
+    grid-column:  -1 / -3;
+}
